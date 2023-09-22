@@ -88,13 +88,13 @@ class TasksController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+     public function update(Request $request, $id)
     {
         $task = Task::findOrFail($id);
         
         $task->content = $request->content;
         $task->save();
-        
+
         return redirect('/');
     }
 
