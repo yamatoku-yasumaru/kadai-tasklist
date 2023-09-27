@@ -95,8 +95,7 @@ class TasksController extends Controller
         }
         
         // トップページにリダイレクトさせる
-        return redirect("/")
-            ->with("failed");
+        return redirect('/');
     }
 
     /**
@@ -119,8 +118,7 @@ class TasksController extends Controller
         }
         
         // トップページにリダイレクトさせる
-        return redirect("/")
-            ->with("failed");
+        return redirect('/');
     }
 
     /**

@@ -43,7 +43,7 @@ class User extends Authenticatable
     ];
     
     /**
-     * このユーザが所有する投稿。（ Micropostモデルとの関係を定義）
+     * このユーザが所有する投稿。（Taskモデルとの関係を定義）
      */
     public function tasks()
     {
